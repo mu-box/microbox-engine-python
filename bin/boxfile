@@ -5,9 +5,9 @@
 cat <<-END
 run.config:
   cache_dirs:
-    - .nanobox/cache/.pip
+    - .microbox/cache/.pip
 END
-if [[ $(grep -c build_triggers /opt/nanobox/hooks/lib/boxfile.rb) -gt 1 ]]; then
+if [[ $(grep -c build_triggers /opt/microbox/hooks/lib/boxfile.rb) -gt 1 ]]; then
 	cat <<-END
 	  build_triggers:
 	    - requirements.txt

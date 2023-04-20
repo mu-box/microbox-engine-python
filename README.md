@@ -1,6 +1,6 @@
 # Python
 
-This is a Python engine for developing python apps on [Nanobox](http://nanobox.io).
+This is a Python engine for developing python apps on [Microbox](http://microbox.cloud).
 
 ## Usage
 To use the Python engine, specify `python` as your `engine` in your boxfile.yml
@@ -11,7 +11,7 @@ run.config:
 ```
 
 ## Configuration Options
-This engine exposes configuration options through the [boxfile.yml](https://docs.nanobox.io/boxfile/), a yaml config file used to provision and configure your app's infrastructure when using Nanobox.
+This engine exposes configuration options through the [boxfile.yml](https://docs.microbox.cloud/boxfile/), a yaml config file used to provision and configure your app's infrastructure when using Microbox.
 
 ### Python Settings
 The following setting allows you to define your Python runtime environment.
@@ -42,4 +42,4 @@ run.config:
 ```
 
 ## Help & Support
-This is a Python engine provided by [Nanobox](http://nanobox.io). If you need help with this engine, you can reach out to us in the [#nanobox IRC channel](http://webchat.freenode.net/?channels=nanobox). If you are running into an issue with the engine, feel free to [create a new issue on this project](https://github.com/pagodabox/nanobox-engine-python/issues/new).
+This is a Python engine provided by [Microbox](http://microbox.cloud). If you need help with this engine, you can reach out to us in the [Microbox Discord](https://discord.gg/MCDdHfy). If you are running into an issue with the engine, feel free to [create a new issue on this project](https://github.com/mu-box/microbox-engine-python/issues/new).
